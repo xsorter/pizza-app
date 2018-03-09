@@ -1,0 +1,27 @@
+footer 
+    padding: 2em 1em
+    background: #24292e 
+    width: 100%
+    color: rgba(255,255,255,0.75)
+    font-size: 90%
+    .container
+        width: 100%
+        max-width: 1160px 
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+    a 
+        color: #ffffff
+        text-decoration: none 
+        &:hover
+            text-decoration: underline
+            color: #d2d2d2
+    span
+        &:nth-child(2) 
+            @media screen and (max-width: 800px),(min-resolution:270dpi)
+                margin-top: 1em        
+    @media screen and (max-width: 800px),(min-resolution:270dpi)
+        flex-direction: column        
+
+ 
